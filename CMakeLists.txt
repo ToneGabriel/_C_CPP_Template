@@ -1,13 +1,13 @@
 cmake_minimum_required(VERSION 3.22.1 FATAL_ERROR)
 project(
-    __PROJECT_NAME__
+    __NAME__
     VERSION 1.0.0
     LANGUAGES C CXX
 )
 
 # Get googletest/unity project
-include(cmake/fetch_googletest.cmake)
-include(cmake/fetch_unity.cmake)
+# include(cmake/fetch_googletest.cmake)
+# include(cmake/fetch_unity.cmake)
 
 # Add utils
 include(cmake/internal_utils.cmake)
